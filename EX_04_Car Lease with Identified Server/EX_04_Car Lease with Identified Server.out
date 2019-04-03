@@ -1,0 +1,82 @@
+
+                                      ARENA Simulation Results
+                                       User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/ 3/2019
+Analyst: User                                                        Model revision date: 4/ 3/2019
+
+Replication ended at time      : 4800.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Normal Member Time Interval                 7.6713     .31593     4.1675     21.121       1110    
+Gold Member Time Interval                   5.0097     .56325     .39259     15.912        470    
+Customer.VATime                                 --         --         --         --          0
+Customer.NVATime                                --         --         --         --          0
+Customer.WaitTime                               --         --         --         --          0
+Customer.TranTime                               --         --         --         --          0
+Customer.OtherTime                              --         --         --         --          0
+Customer.TotalTime                              --         --         --         --          0
+Normal Member.VATime                        6.5817     .06740     4.1018     9.7898       1110    
+Normal Member.NVATime                       .00000     .00000     .00000     .00000       1110    
+Normal Member.WaitTime                      1.0895     .31566     .00000     15.501       1110    
+Normal Member.TranTime                      .00000     .00000     .00000     .00000       1110    
+Normal Member.OtherTime                     .00000     .00000     .00000     .00000       1110    
+Normal Member.TotalTime                     7.6713     .31593     4.1675     21.121       1110    
+Gold Member.VATime                          2.4344     .06913     .39259     3.9262        470    
+Gold Member.NVATime                         .00000     .00000     .00000     .00000        470    
+Gold Member.WaitTime                        2.5753     .54022     .00000     13.116        470    
+Gold Member.TranTime                        .00000     .00000     .00000     .00000        470    
+Gold Member.OtherTime                       .00000     .00000     .00000     .00000        470    
+Gold Member.TotalTime                       5.0097     .56325     .39259     15.912        470    
+Gold Service Process.Queue.WaitingTime      2.5753     .54022     .00000     13.116        470    
+Normal Service Process.Queue.WaitingTime    1.0866     .31569     .00000     15.501       1113    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Normal Member.WIP                           1.7767     .16589     .00000     11.000     4.0000    
+Gold Member.WIP                             .49054     .08308     .00000     5.0000     .00000    
+Mary.NumberBusy                             .55167     .04074     .00000     1.0000     1.0000    
+Mary.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mary.Utilization                            .55167     .04074     .00000     1.0000     1.0000    
+Su.NumberBusy                               .53832     .03727     .00000     1.0000     1.0000    
+Su.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Su.Utilization                              .53832     .03727     .00000     1.0000     1.0000    
+Joe.NumberBusy                              .67291     .02878     .00000     1.0000     1.0000    
+Joe.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Joe.Utilization                             .67291     .02878     .00000     1.0000     1.0000    
+Gold Service Process.Queue.NumberInQueue    .25217     .06287     .00000     5.0000     .00000    
+Normal Service Process.Queue.NumberInQueue  .25219     .09302     .00000     8.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           1584.0    
+Customer.NumberOut                          1584.0    
+Normal Member.NumberIn                      1114.0    
+Normal Member.NumberOut                     1110.0    
+Gold Member.NumberIn                        470.00    
+Gold Member.NumberOut                       470.00    
+Mary.NumberSeized                           703.00    
+Mary.ScheduledUtilization                   .55167    
+Su.NumberSeized                             395.00    
+Su.ScheduledUtilization                     .53832    
+Joe.NumberSeized                            485.00    
+Joe.ScheduledUtilization                    .67291    
+System.NumberOut                            1580.0    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

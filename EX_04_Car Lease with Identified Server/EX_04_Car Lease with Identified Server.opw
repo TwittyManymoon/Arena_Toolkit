@@ -1,0 +1,13 @@
+[RESOURCES]
+Mary
+Su
+Joe
+[VARIABLES]
+Normal Service Process.NumberOut
+Normal Service Process.NumberIn
+Customer Type.NumberOut True
+Customer Arrived.NumberOut
+Gold Service Process.NumberOut
+Exit.NumberOut
+Customer Type.NumberOut False
+Gold Service Process.NumberIn
