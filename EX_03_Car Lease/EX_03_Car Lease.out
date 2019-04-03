@@ -1,0 +1,54 @@
+SIMAN Run Controller.
+
+5.1673145 Hours>
+                                      ARENA Simulation Results
+                                       User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/ 3/2019
+Analyst: User                                                        Model revision date: 4/ 3/2019
+
+Replication ended at time      : 5.1673145 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Car Leasing Document.VATime                 1.1617     (Insuf)    .11093     1.7568         46    
+Car Leasing Document.NVATime                .00000     (Insuf)    .00000     .00000         46    
+Car Leasing Document.WaitTime               .01946     (Insuf)    .00000     .07744         46    
+Car Leasing Document.TranTime               .00000     (Insuf)    .00000     .00000         46    
+Car Leasing Document.OtherTime              .00000     (Insuf)    .00000     .00000         46    
+Car Leasing Document.TotalTime              1.1812     (Insuf)    .11093     1.8192         46    
+Leasing Document Reply Process.Queue.Waiti  .01237     (Insuf)    .00000     .07730         40    
+Leasing Document Checking Process.Queue.Wa  .00870     (Insuf)    .00000     .07744         63    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Car Leasing Document.WIP                    12.653     (Insuf)    .00000     20.000     17.000    
+Leasing Document Checking Staff.NumberBusy  2.9657     (Insuf)    .00000     5.0000     3.0000    
+Leasing Document Checking Staff.NumberSche  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Leasing Document Checking Staff.Utilizatio  .59315     (Insuf)    .00000     1.0000     .60000    
+Leasing Document Reply Process.Queue.Numbe  .09575     (Insuf)    .00000     3.0000     .00000    
+Leasing Document Checking Process.Queue.Nu  .10608     (Insuf)    .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Car Leasing Document.NumberIn               63.000    
+Car Leasing Document.NumberOut              46.000    
+Leasing Document Checking Staff.NumberSeiz  103.00    
+Leasing Document Checking Staff.ScheduledU  .59315    
+System.NumberOut                            46.000    
+
+
+Simulation run time: 0.93 minutes.
+Simulation run complete.

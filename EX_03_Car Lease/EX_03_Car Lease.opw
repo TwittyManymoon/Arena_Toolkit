@@ -1,0 +1,15 @@
+[RESOURCES]
+Leasing Document Checking Staff
+[VARIABLES]
+Car Leasing Document Arrival.NumberOut
+Return Incompleted Leasing Document.NumberOut
+Leasing Document Reply Process.NumberOut
+Barcode Reading Process.NumberIn
+Fail?.NumberOut False
+Return Completed Leasing Document.NumberOut
+Fail?.NumberOut True
+Leasing Document Reply Process.NumberIn
+Leasing Document Checking Process.NumberIn
+Leasing Document Checking Process.NumberOut
+Number in System
+Barcode Reading Process.NumberOut
