@@ -1,0 +1,24 @@
+[RESOURCES]
+Teller 1
+Teller 2
+Part Time Teller
+Manager
+[VARIABLES]
+Normal Transaction.NumberOut
+Manager Assist Process.WaitTime
+Return Document Process.NumberIn
+Customer Arrived.NumberOut
+Customer Type?.NumberOut False
+Customer Type?.NumberOut True
+Return Document Process.VATime
+Exit.NumberOut
+Document Checking Process.NumberOut
+Document Checking Process.NumberIn
+Normal Transaction.NumberIn
+Manager Assist Process.VATime
+Manager Assist Process.NumberOut
+Manager Assist Process.NumberIn
+Return Document Process.NumberOut
+Document Checking Process.WaitTime
+Normal Transaction.VATime
+Document Checking Process.VATime

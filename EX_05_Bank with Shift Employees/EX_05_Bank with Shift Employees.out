@@ -1,0 +1,93 @@
+
+                                      ARENA Simulation Results
+                                       User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/ 4/2019
+Analyst: User                                                        Model revision date: 4/ 4/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Return Document Process.TotalTimePerEntity  .00000     (Insuf)    .00000     .00000         93    
+Normal Transaction Time Interval            9.6038     (Insuf)    2.0705     28.481        155    
+Manager Assist Process.VATimePerEntity      2.7240     (Insuf)    2.0021     3.4960         93    
+Normal Transaction.TotalTimePerEntity       1.5575     (Insuf)    1.0572     2.1761        155    
+Return Document Process.VATimePerEntity     .00000     (Insuf)    .00000     .00000         93    
+Manager Assist Process.WaitTimePerEntity    1.7479     (Insuf)    .00000     29.225         93    
+Document Checking Process.WaitTimePerEntit  6.9244     (Insuf)    .00000     26.328        249    
+Manager Assist Process.TotalTimePerEntity   4.4719     (Insuf)    2.0021     31.313         93    
+Document Checking Process.VATimePerEntity   1.0816     (Insuf)    .77471     1.4709        249    
+Complex Transaction Time Interval           12.446     (Insuf)    2.9281     40.826         93    
+Document Checking Process.TotalTimePerEnti  8.0061     (Insuf)    .81130     27.172        249    
+Normal Transaction.VATimePerEntity          1.5575     (Insuf)    1.0572     2.1761        155    
+Customer.VATime                             3.0769     (Insuf)    1.9481     4.8085        248    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        248    
+Customer.WaitTime                           7.5927     (Insuf)    .00000     37.963        248    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        248    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        248    
+Customer.TotalTime                          10.669     (Insuf)    2.0705     40.826        248    
+Manager Assist Process.Queue.WaitingTime    1.7293     (Insuf)    .00000     29.225         94    
+Document Checking Process.Queue.WaitingTim  6.9116     (Insuf)    .00000     26.328        250    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                5.5395     (Corr)     .00000     19.000     3.0000    
+Teller 1.NumberBusy                         .78272     (Insuf)    .00000     1.0000     1.0000    
+Teller 1.NumberScheduled                    .93725     (Insuf)    .00000     1.0000     1.0000    
+Teller 1.Utilization                        .78272     (Insuf)    .00000     1.0000     1.0000    
+Teller 2.NumberBusy                         .72158     (Insuf)    .00000     1.0000     1.0000    
+Teller 2.NumberScheduled                    .93644     (Insuf)    .00000     1.0000     1.0000    
+Teller 2.Utilization                        .72158     (Insuf)    .00000     1.0000     1.0000    
+Part Time Teller.NumberBusy                 .43089     (Insuf)    .00000     1.0000     .00000    
+Part Time Teller.NumberScheduled            .50000     (Insuf)    .00000     1.0000     .00000    
+Part Time Teller.Utilization                .43089     (Insuf)    .00000     1.0000     .00000    
+Manager.NumberBusy                          .53162     (Insuf)    .00000     1.0000     1.0000    
+Manager.NumberScheduled                     .93336     (Insuf)    .00000     1.0000     1.0000    
+Manager.Utilization                         .53162     (Insuf)    .00000     1.0000     1.0000    
+Manager Assist Process.Queue.NumberInQueue  .33866     (Insuf)    .00000     3.0000     .00000    
+Document Checking Process.Queue.NumberInQu  3.6043     (Corr)     .00000     16.000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Normal Transaction Number Out               155.00    
+Manager Assist Process Accum Wait Time      162.55    
+Return Document Process Number In           93.000    
+Return Document Process Accum VA Time       .00000    
+Document Checking Process Number Out        249.00    
+Document Checking Process Number In         251.00    
+Normal Transaction Number In                155.00    
+Manager Assist Process Accum VA Time        253.33    
+Manager Assist Process Number Out           93.000    
+Manager Assist Process Number In            94.000    
+Return Document Process Number Out          93.000    
+Document Checking Process Accum Wait Time   1724.1    
+Normal Transaction Accum VA Time            241.42    
+Document Checking Process Accum VA Time     269.32    
+Customer.NumberIn                           251.00    
+Customer.NumberOut                          248.00    
+Teller 1.NumberSeized                       101.00    
+Teller 1.ScheduledUtilization               .83513    
+Teller 2.NumberSeized                       99.000    
+Teller 2.ScheduledUtilization               .77056    
+Part Time Teller.NumberSeized               50.000    
+Part Time Teller.ScheduledUtilization       .86179    
+Manager.NumberSeized                        94.000    
+Manager.ScheduledUtilization                .56958    
+System.NumberOut                            248.00    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.
