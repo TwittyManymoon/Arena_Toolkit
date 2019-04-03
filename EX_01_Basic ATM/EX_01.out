@@ -1,4 +1,6 @@
+SIMAN Run Controller.
 
+0.0 Minutes>
                                       ARENA Simulation Results
                                        User - License: STUDENT
 
@@ -46,5 +48,5 @@ ATM.ScheduledUtilization                    .27029
 System.NumberOut                            148.00    
 
 
-Simulation run time: 0.07 minutes.
+Simulation run time: 0.10 minutes.
 Simulation run complete.

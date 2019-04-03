@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=D:\Toolkit\Arena\EX_1
-DBQ=D:\Toolkit\Arena\EX_1\EX_01.accdb
+DefaultDir=d:\Toolkit\Arena\EX_01_Basic ATM
+DBQ=D:\Toolkit\Arena\EX_01_Basic ATM\EX_01.accdb
