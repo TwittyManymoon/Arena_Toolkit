@@ -1,0 +1,10 @@
+[RESOURCES]
+Review Application Staff
+[VARIABLES]
+Accepted.NumberOut
+Rejected.NumberOut
+Complete?.NumberOut True
+Complete?.NumberOut False
+Mortgage Application Arrives.NumberOut
+Review Application Process.NumberOut
+Review Application Process.NumberIn

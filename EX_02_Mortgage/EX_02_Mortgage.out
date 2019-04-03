@@ -1,0 +1,73 @@
+SIMAN Run Controller.
+
+467.64129 Hours>
+                                      ARENA Simulation Results
+                                       User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/ 3/2019
+Analyst: User                                                        Model revision date: 4/ 3/2019
+
+Replication ended at time      : 467.64129 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Application.VATime                          1.6251     (Insuf)    .18233     2.9097        254    
+Application.NVATime                         .00000     (Insuf)    .00000     .00000        254    
+Application.WaitTime                        5.0019     (Insuf)    .00000     12.311        254    
+Application.TranTime                        .00000     (Insuf)    .00000     .00000        254    
+Application.OtherTime                       .00000     (Insuf)    .00000     .00000        254    
+Application.TotalTime                       6.6271     (Insuf)    .22241     14.728        254    
+Application.VACost                          19.501     (Insuf)    2.1879     34.917        254    
+Application.NVACost                         .00000     (Insuf)    .00000     .00000        254    
+Application.WaitCost                        .00000     (Insuf)    .00000     .00000        254    
+Application.TranCost                        .00000     (Insuf)    .00000     .00000        254    
+Application.OtherCost                       .00000     (Insuf)    .00000     .00000        254    
+Application.TotalCost                       19.501     (Insuf)    2.1879     34.917        254    
+Review Application Process.Queue.WaitingTi  4.9907     (Insuf)    .00000     12.311        255    
+Review Application Process.Queue.WaitingCo  .00000     (Insuf)    .00000     .00000        255    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Application.WIP                             3.6062     (Corr)     .00000     10.000     2.0000    
+Review Application Staff.NumberBusy         .88399     (Insuf)    .00000     1.0000     1.0000    
+Review Application Staff.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Review Application Staff.Utilization        .88399     (Insuf)    .00000     1.0000     1.0000    
+Review Application Process.Queue.NumberInQ  2.7222     (Corr)     .00000     9.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Application.NumberIn                        256.00    
+Application.NumberOut                       254.00    
+Review Application Staff.NumberSeized       255.00    
+Review Application Staff.ScheduledUtilizat  .88399    
+Review Application Staff.BusyCost           4953.4    
+Review Application Staff.IdleCost           650.98    
+Review Application Staff.UsageCost          .00000    
+All Entities.VACost                         4953.4    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      4953.4    
+All Resources.BusyCost                      4953.4    
+All Resources.IdleCost                      650.98    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     5604.4    
+System.TotalCost                            5604.4    
+System.NumberOut                            254.00    
+
+
+Simulation run time: 0.17 minutes.
+Simulation run complete.
