@@ -1,0 +1,7 @@
+[RESOURCES]
+ATM
+[VARIABLES]
+Customer Leaves.NumberOut
+ATM Process.NumberIn
+ATM Process.NumberOut
+Customer Arrives.NumberOut

@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                       User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/ 3/2019
+Analyst: User                                                        Model revision date: 4/ 3/2019
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1.7532     (Insuf)    .23061     2.8701        148    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        148    
+Customer.WaitTime                           .09002     (Insuf)    .00000     1.8200        148    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        148    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        148    
+Customer.TotalTime                          1.8432     (Insuf)    .23061     3.4892        148    
+ATM Process.Queue.WaitingTime               .09002     (Insuf)    .00000     1.8200        148    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .56833     (Insuf)    .00000     4.0000     .00000    
+ATM.NumberBusy                              .54057     (Insuf)    .00000     2.0000     .00000    
+ATM.NumberScheduled                         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+ATM.Utilization                             .27029     (Insuf)    .00000     1.0000     .00000    
+ATM Process.Queue.NumberInQueue             .02776     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           148.00    
+Customer.NumberOut                          148.00    
+ATM.NumberSeized                            148.00    
+ATM.ScheduledUtilization                    .27029    
+System.NumberOut                            148.00    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.
